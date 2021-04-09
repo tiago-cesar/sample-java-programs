@@ -4,7 +4,7 @@ type: docker
 name: default
 
 steps:
-- nme: build
+- name: build
   image: maven:3-jdk-10
   commands:
   - mvn clean install
