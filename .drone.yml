@@ -9,6 +9,7 @@ steps:
   - mvn clean install
 
 trigger:
+  ref:
   - refs/heads/master
   - refs/heads/**
   - refs/pull/*/head
